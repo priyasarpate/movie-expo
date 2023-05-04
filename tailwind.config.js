@@ -10,7 +10,9 @@ module.exports = {
       mainColor: "#322828",
       black: "#000",
       white: "#fff",
-      gray: "gray"
+      gray: "gray",
+      IMDB: "#FFA500",
+      green: "#00FFAB",
     },
     extend: {
       backgroundImage: {
