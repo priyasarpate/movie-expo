@@ -3,15 +3,39 @@ import React from 'react'
 function SecondSidebar() {
   return (
     <div>
-          {/* <div className="group rounded-lg border border-transparent px-5 py-4 w-96">
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </div> */}
+    <div className="group border-white text-center py-10 px-10">
+      <h2 className={`mb-3 text-2xl font-semibold`}>Movie</h2>
+
+      <div>
+        <div className="text-left py-3 text-gray-400">MENU</div>
+        <div className="text-left p-5">
+          <p>Home</p>
+          <p>Community</p>
+          <p>Descovery</p>
+          <p>Coming Soon</p>
+        </div>
+      </div>
+
+      <div>
+        <div className="text-left py-3 text-gray-400">SOCIALS</div>
+        <div className="text-left p-5">
+          <p>Home</p>
+          <p>Community</p>
+          <p>Descovery</p>
+          <p>Coming Soon</p>
+        </div>
+      </div>
+      <div>
+        <div className="text-left py-3 text-gray-400">GENERALS</div>
+        <div className="text-left p-5">
+          <p>Home</p>
+          <p>Community</p>
+          <p>Descovery</p>
+          <p>Coming Soon</p>
+        </div>
+      </div>
     </div>
+  </div>
   )
 }
 
