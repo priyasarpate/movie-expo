@@ -1,6 +1,6 @@
-"use client"; 
+"use client";
 import React, { useState, useEffect } from "react";
-import Movie from "./Movie";
+import Popular from "../movies/Popular";
 
 const API = () => {
   const [popular, setPopular] = useState([]);
@@ -19,14 +19,17 @@ const API = () => {
   };
 
   return (
-    <div className="App">
-    <h1>Movies</h1>
-    <div className="popular-movies">
-      {popular.map((movie) => {
-        return <Movie key={movie.id} movie={movie} />;
-      })}
+    <div className="bg-black">
+      <h2 className={` text-2xl font-semibold text-white py-8 text-center`}>
+        Popular Movies
+      </h2>
+
+      <div className="popular-movies">
+        {popular.map((movie) => {
+          return <Popular key={movie.id} movie={movie} />;
+        })}
+      </div>
     </div>
-  </div>
   );
 };
 export default API;

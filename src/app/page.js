@@ -1,7 +1,6 @@
 import Image from "next/image";
 import MainScreen from "./components/dashboard/MainScreen";
 import SideBar from "./components/sidebar/SideBar";
-import SecondSidebar from "./components/lastsidebar/SecondSidebar";
 import API from "./components/dashboard/API";
 
 export default function Home() {
@@ -9,8 +8,7 @@ export default function Home() {
     <main className="flex">
         <SideBar/>
         <MainScreen /> 
-        <SecondSidebar/>
-        {/* <API /> */}
+        <API />
     </main>
   );
 }
