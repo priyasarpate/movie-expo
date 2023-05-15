@@ -1,6 +1,6 @@
 import React from "react";
 
-const Popular = ({ movie }) => { 
+const Fav = ({ movie }) => { 
 
   return (
     <div className="bg-black">
@@ -35,4 +35,4 @@ const Popular = ({ movie }) => {
   );
 }
 
-export default Popular;
+export default Fav;
