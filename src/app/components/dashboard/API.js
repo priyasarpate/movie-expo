@@ -4,6 +4,7 @@ import Popular from "../movies/Popular";
 
 const API = () => {
   const [popular, setPopular] = useState([]);
+  const [latest, setLatest] = useState([]);
   const [showAll, setShowAll] = useState(false);
 
   const url =
@@ -22,7 +23,6 @@ const API = () => {
   const toggleShowAll = () => {
     setShowAll(!showAll);
   };
-
   const renderedItems = showAll ? popular : popular.slice(0, 3);
 
   return (
