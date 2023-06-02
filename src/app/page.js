@@ -5,7 +5,7 @@ import API from "./components/dashboard/API";
 
 export default function Home() {
   return (
-    <main className="flex">
+    <main className="flex overflow-x-hidden	">
         <SideBar/>
         <MainScreen /> 
         <API />
