@@ -29,7 +29,7 @@ function SideBar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-6 h-6 hover:text-green"
               >
                 <path
                   strokeLinecap="round"
@@ -38,7 +38,7 @@ function SideBar() {
                 />
               </svg>
 
-              <p>Home</p>
+              <p className="hover:text-green">Home</p>
             </div>
 
             <div className="flex gap-3 p-2">
@@ -48,7 +48,7 @@ function SideBar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-6 h-6 hover:text-green"
               >
                 <path
                   strokeLinecap="round"
@@ -57,7 +57,7 @@ function SideBar() {
                 />
               </svg>
 
-              <p>Community</p>
+              <p className="hover:text-green">Community</p>
             </div>
 
             <div className="flex gap-3 p-2">
@@ -67,7 +67,7 @@ function SideBar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-6 h-6 hover:text-green"
               >
                 <path
                   strokeLinecap="round"
@@ -76,7 +76,7 @@ function SideBar() {
                 />
               </svg>
 
-              <p>Descovery</p>
+              <p className="hover:text-green">Descovery</p>
             </div>
 
             <div className="flex gap-3 p-2">
@@ -86,7 +86,7 @@ function SideBar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-6 h-6 hover:text-green"
               >
                 <path
                   strokeLinecap="round"
@@ -95,7 +95,7 @@ function SideBar() {
                 />
               </svg>
 
-              <p>Coming Soon</p>
+              <p className="hover:text-green">Coming Soon</p>
             </div>
           </div>
 
@@ -108,7 +108,7 @@ function SideBar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-6 h-6 hover:text-green"
               >
                 <path
                   strokeLinecap="round"
@@ -117,7 +117,7 @@ function SideBar() {
                 />
               </svg>
 
-              <p>Friends</p>
+              <p className="hover:text-green">Friends</p>
             </div>
 
             <div className="flex gap-3 p-2">
@@ -127,7 +127,7 @@ function SideBar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-6 h-6 hover:text-green"
               >
                 <path
                   strokeLinecap="round"
@@ -136,7 +136,7 @@ function SideBar() {
                 />
               </svg>
 
-              <p>Parties</p>
+              <p className="hover:text-green">Parties</p>
             </div>
 
             <div className="flex gap-3 p-2">
@@ -146,7 +146,7 @@ function SideBar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-6 h-6 hover:text-green"
               >
                 <path
                   strokeLinecap="round"
@@ -160,7 +160,7 @@ function SideBar() {
                 />
               </svg>
 
-              <p>Media</p>
+              <p className="hover:text-green">Media</p>
             </div>
           </div>
 
@@ -173,7 +173,7 @@ function SideBar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-6 h-6 hover:text-green"
               >
                 <path
                   strokeLinecap="round"
@@ -187,7 +187,7 @@ function SideBar() {
                 />
               </svg>
 
-              <p>Settings</p>
+              <p className="hover:text-green">Settings</p>
             </div>
 
             <div className="flex gap-3 p-2">
@@ -197,7 +197,7 @@ function SideBar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-6 h-6 hover:text-green"
               >
                 <path
                   strokeLinecap="round"
@@ -205,7 +205,7 @@ function SideBar() {
                   d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
                 />
               </svg>
-              <p>Log Out</p>
+              <p className="hover:text-green">Log Out</p>
             </div>
           </div>
         </div>
