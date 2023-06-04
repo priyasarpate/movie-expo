@@ -22,7 +22,7 @@ function SideBar() {
         <div>
           <div className="text-left py-3 text-gray">MENU</div>
           <div className="text-left py-5 text-white">
-            <div className="flex gap-3 p-2">
+            <div className="flex gap-3 p-2 hover:text-green">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -41,7 +41,7 @@ function SideBar() {
               <p className="hover:text-green">Home</p>
             </div>
 
-            <div className="flex gap-3 p-2">
+            <div className="flex gap-3 p-2 hover:text-green">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -60,7 +60,7 @@ function SideBar() {
               <p className="hover:text-green">Community</p>
             </div>
 
-            <div className="flex gap-3 p-2">
+            <div className="flex gap-3 p-2 hover:text-green">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -79,7 +79,7 @@ function SideBar() {
               <p className="hover:text-green">Descovery</p>
             </div>
 
-            <div className="flex gap-3 p-2">
+            <div className="flex gap-3 p-2 hover:text-green">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -101,7 +101,7 @@ function SideBar() {
 
           <div className="text-left py-3 text-gray">SOCIALS</div>
           <div className="text-left py-5 text-white">
-            <div className="flex gap-3 p-2">
+            <div className="flex gap-3 p-2 hover:text-green">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -120,7 +120,7 @@ function SideBar() {
               <p className="hover:text-green">Friends</p>
             </div>
 
-            <div className="flex gap-3 p-2">
+            <div className="flex gap-3 p-2 hover:text-green">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -139,7 +139,7 @@ function SideBar() {
               <p className="hover:text-green">Parties</p>
             </div>
 
-            <div className="flex gap-3 p-2">
+            <div className="flex gap-3 p-2 hover:text-green">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -166,7 +166,7 @@ function SideBar() {
 
           <div className="text-left py-3 text-gray">GENERALS</div>
           <div className="text-left py-5 text-white">
-            <div className="flex gap-3 p-2">
+            <div className="flex gap-3 p-2 hover:text-green">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -190,7 +190,7 @@ function SideBar() {
               <p className="hover:text-green">Settings</p>
             </div>
 
-            <div className="flex gap-3 p-2">
+            <div className="flex gap-3 p-2 hover:text-green">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
