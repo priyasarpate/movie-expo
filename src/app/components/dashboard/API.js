@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Popular from "../movies/Popular";
+import Sidebar from "../sidebar/Sidebar";
 
 const API = () => {
   const [popular, setPopular] = useState([]);
@@ -8,7 +8,7 @@ const API = () => {
   const [showAll, setShowAll] = useState(false);
 
   const url =
-    "https://api.themoviedb.org/3/movie/popular?api_key=22cdba295b10a4f09efa42a3e8d46c62&language=en-US&page=1";
+    "https://api.themoviedb.org/3/movie/upcoming?api_key=22cdba295b10a4f09efa42a3e8d46c62&language=en-US&page=1";
 
   useEffect(() => {
     fetchPopular();
@@ -17,7 +17,7 @@ const API = () => {
   const fetchPopular = async () => {
     const data = await fetch(url);
     const movies = await data.json();
-    setPopular(movies.results);
+    setPopular(movies.results); 
   };
 
   const toggleShowAll = () => {
@@ -33,7 +33,7 @@ const API = () => {
 
       <div className="popular-movies">
         {renderedItems.map((movie) => {
-          return <Popular key={movie.id} movie={movie} />;
+          return <Sidebar key={movie.id} movie={movie} />;
         })}
       </div>
       <div className="py-6">

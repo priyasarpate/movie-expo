@@ -2,7 +2,7 @@ import React from "react";
 import movie1 from "../../../../public/movie1.jpg";
 import Image from "next/image";
 
-function MainScreen() {
+function Header() {
   return (
     <div className="bg-mainColor px-10 py-10">
       <div>
@@ -42,26 +42,9 @@ function MainScreen() {
           className="h-96 w-auto m-5 p-5"
         />
       </div>
-      <div>
-        <div className="text-left py-3 text-white">Upcoming Movies</div>
-        <div className="flex justify-center items-center text-left p-5 gap-3">
-          <p className=" w-36 h-44 bg-white border-black rounded-lg">Home</p>
-          <p className=" w-36 h-44 bg-white border-black rounded-lg">Home</p>
-          <p className=" w-36 h-44 bg-white border-black rounded-lg">Home</p>
-          <p className=" w-36 h-44 bg-white border-black rounded-lg">Home</p>
-        </div>
-      </div>
-      <div>
-        <div className="text-left py-3 text-white">latest Movies</div>
-        <div className="flex justify-center items-center text-left p-5 gap-3">
-          <p className=" w-36 h-44 bg-white border-black rounded-lg">Home</p>
-          <p className=" w-36 h-44 bg-white border-black rounded-lg">Home</p>
-          <p className=" w-36 h-44 bg-white border-black rounded-lg">Home</p>
-          <p className=" w-36 h-44 bg-white border-black rounded-lg">Home</p>
-        </div>
-      </div>
+   
     </div>
   );
 }
 
-export default MainScreen;
+export default Header;

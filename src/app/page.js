@@ -1,14 +1,14 @@
 import Image from "next/image";
-import MainScreen from "./components/dashboard/MainScreen";
-import SideBar from "./components/sidebar/SideBar";
-import API from "./components/dashboard/API";
+import Navbar from "./components/navbar/Navbar";
+import Sidebar from "./components/sidebar/Sidebar";
+import Dashoard from "./components/dashboard/Dashoard";
 
 export default function Home() {
   return (
     <main className="flex overflow-x-hidden	">
-        <SideBar/>
-        <MainScreen /> 
-        <API />
+        <Navbar/>
+        <Dashoard /> 
+        <Sidebar/>
     </main>
   );
 }
