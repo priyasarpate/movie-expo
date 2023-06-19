@@ -1,8 +1,6 @@
 "use client";
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
 import Header from "./Header";
 import Upcoming from "./Upcoming";
 import Latest from "./Latest";
