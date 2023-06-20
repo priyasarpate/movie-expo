@@ -42,12 +42,12 @@ function Fav({ movies }) {
                   <p className="text-green font-normal text-sm">Action</p>
                   <p className="font-semibold text-sm text-green">,Horror</p>
                 </div>
-                <div className="flex mt-6 gap-2">
+                {/* <div className="flex mt-6 gap-2">
                   <p className="bg-IMDB text-xs text-center text-white p-1">
                     IMDB
                   </p>
                   <p className="text-normal text-green">7.8</p>
-                </div>
+                </div> */}
               </div>
             </div>
           );
