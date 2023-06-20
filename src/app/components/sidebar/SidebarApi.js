@@ -4,7 +4,6 @@ import axios from "axios";
 import Popular from "./Popular";
 import Fav from "./Fav";
 
-
 function Dashboard() {
   const [latestMovies, setLatestMovies] = useState();
   const [upcomingMovies, setUpcomingMovies] = useState();
@@ -36,5 +35,3 @@ function Dashboard() {
 }
 
 export default Dashboard;
-
-

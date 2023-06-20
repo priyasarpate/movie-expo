@@ -1,20 +1,26 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 
 function Fav({ movies }) {
-  console.log("Hello from popular movies", movies);
+  const [showAll, setShowAll] = useState(false);
 
   // Check if movies is undefined or not an array
   if (!movies || !Array.isArray(movies)) {
     return null; // or return an appropriate component or message
   }
 
+  const displayMovies = showAll ? movies : movies.slice(0, 3);
+
+  const handleSeeAllClick = () => {
+    setShowAll(true);
+  };
+
   return (
     <div>
       <div>
-        <h2 className={`mb-3 text-2xl font-semibold text-white`}>
-          Fav Movies
-        </h2>
-        {movies.map((movie) => {
+        <h2 className={`mb-3 text-2xl font-semibold text-white`}>Fav Movies</h2>
+        {displayMovies.map((movie) => {
           return (
             <div
               className="flex gap-3 border-white w-44 h-24 bg-black mt-10"
@@ -47,11 +53,16 @@ function Fav({ movies }) {
           );
         })}
 
-        <div className="py-6">
-          <button className="text-white bg-green rounded-lg px-5 w-44 h-10">
-            See all
-          </button>
-        </div>
+        {!showAll && movies.length > 3 && (
+          <div className="py-6">
+            <button
+              className="text-white bg-green rounded-lg px-5 w-44 h-10"
+              onClick={handleSeeAllClick}
+            >
+              See all
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
