@@ -5,7 +5,7 @@ import Header from "./Header";
 import Upcoming from "./Upcoming";
 import Latest from "./Latest";
 
-function Dashoard() {
+function Dashboard() {
   const [latestMovies, setLatestMovies] = useState();
   const [upcomingMovies, setUpcomingMovies] = useState();
 
@@ -34,4 +34,5 @@ function Dashoard() {
   );
 }
 
-export default Dashoard;
+export default Dashboard;
+

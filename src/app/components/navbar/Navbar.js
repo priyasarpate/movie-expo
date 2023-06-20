@@ -5,7 +5,7 @@ import movie_logo from "../../../../public/movie_logo.png";
 function navbar() {
   return (
     <div className="bg-black">
-      <div className="group border-white text-center py-10 px-5">
+      <div className="group border-white text-center py-8 px-8">
         <div className="flex m-0 pb-10 mb-5">
           <Image
             src={movie_logo}
